@@ -17,27 +17,28 @@ While scheduling the operations into 4 rooms, the first precedence is given to p
 
 Algorithm has produced the following schedule:
 
-Room number	Available Interval	Duration (min)	Scheduled Interval	Patient Name	Patient Surname		Patient Priority
-1		(0 , 40)		20		(0 , 20)		Justin		Bieber			1
-1		(360 , 480)		120		(360 , 480)		Yýlmaz		Morgul			1
-1		(40 , 180)		40		(40 , 80)		Heidi		Klum			1
-2		(0 , 180)		60		(0 , 60)		Bihter		Ziyagil			1
-1		(120 , 380)		120		(120 , 240)		Husnu		Coban			1
-2		(60 , 360)		20		(60 , 80)		Sezen		Aksu			1
-3		(0 , 480)		40		(0 , 40)		Serdar		Ortac			1
-3		(40 , 120)		60		(40 , 100)		Selena		Gomez			2
-4		(0 , 120)		60		(0 , 60)		Patricia 	Petibon			2
-4		(0 , 140)		40		(60 , 100)		Isabella 	Boylston		2
-2		(200 , 360)		40		(200 , 240)		Hadise		Acikgoz			2
-2		(100 , 180)		40		(100 , 140)		Nihal		Candan			3
-1		(240 , 360)		40		(240 , 280)		Askim		Kapismak		3
-3		(180 , 320)		60		(180 , 240)		Ýbrahim		Tatlýses		3
-3		(40 , 240)		60		(100 , 160)		Safiye		Soyman			3
-1		(0 , 120)		20		(20 , 40)		Kendall		Jenner			4
-4		(120 , 300)		100		(120 , 220)		Murat		Kekilli			4
-2		(260 , 480)		60		(260 , 320)		Aurelie		Dupont			4
-4		(40 , 360)		100		(220 , 320)		Faik		Ozturk			4
-3		(0 , 480)		180		(240 , 420)		Bruce		Jenner			4
+| Room number   | Available Interval	| Duration (min)	| Scheduled Interval	| Patient Name		| Patient Surname		| Patient Priority 	 |
+| -----	        | ----- 		| -----			| ----- 		| -----			| -----				| -----			 |
+| 1	        | (0 , 40)		| 20			| (0 , 20)		| Justin		| Bieber			| 1			 |
+| 1		| (360 , 480)		| 120			| (360 , 480)		| Yýlmaz		| Morgul			| 1			 |
+| 1		| (40 , 180)		| 40			| (40 , 80)		| Heidi			| Klum				| 1			 |
+| 2		| (0 , 180)		| 60			| (0 , 60)		| Bihter		| Ziyagil			| 1			 |
+| 1		| (120 , 380)		| 120			| (120 , 240)		| Husnu			| Coban				| 1			 |
+| 2		| (60 , 360)		| 20			| (60 , 80)		| Sezen			| Aksu				| 1			 |
+| 3		| (0 , 480)		| 40			| (0 , 40)		| Serdar		| Ortac				| 1			 |
+| 3		| (40 , 120)		| 60			| (40 , 100)		| Selena		| Gomez				| 2			 |
+| 4		| (0 , 120)		| 60			| (0 , 60)		| Patricia 		| Petibon			| 2			 |
+| 4		| (0 , 140)		| 40			| (60 , 100)		| Isabella 		| Boylston			| 2			 |
+| 2		| (200 , 360)		| 40			| (200 , 240)		| Hadise		| Acikgoz			| 2			 |
+| 2		| (100 , 180)		| 40			| (100 , 140)		| Nihal			| Candan			| 3			 |
+| 1		| (240 , 360)		| 40			| (240 , 280)		| Askim			| Kapismak			| 3			 |
+| 3		| (180 , 320)		| 60			| (180 , 240)		| Ýbrahim		| Tatlýses			| 3			 |
+| 3		| (40 , 240)		| 60			| (100 , 160)		| Safiye		| Soyman			| 3			 |
+| 1		| (0 , 120)		| 20			| (20 , 40)		| Kendall		| Jenner			| 4			 |
+| 4		| (120 , 300)		| 100			| (120 , 220)		| Murat			| Kekilli			| 4			 |
+| 2		| (260 , 480)		| 60			| (260 , 320)		| Aurelie		| Dupont			| 4			 |
+| 4		| (40 , 360)		| 100			| (220 , 320)		| Faik			| Ozturk			| 4			 |
+| 3		| (0 , 480)		| 180			| (240 , 420)		| Bruce			| Jenner			| 4			 |
 
 Gantt chart of surgery rooms can be seen from figure below:
 ![gant](https://user-images.githubusercontent.com/30045618/58962099-20c22180-87b3-11e9-90bc-3bbd8989e833.png)
