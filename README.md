@@ -1,4 +1,4 @@
-# Scheduling
+# Scheduling Surgery Operations
 Scheduling daily surgery rooms for operations of the next day in between hours of 9:00 am and 5:00 pm. Dataset includes 20 operations with their possible starting and ending times, durations and the priority of each patient. According to several constraints:
  - There are 4 number of daily surgery rooms in the hospital, and the operations should be placed only in these rooms.
  - The number of doctors is enough to serve the patients.
@@ -20,7 +20,7 @@ Algorithm has produced the following schedule:
 | Room number   | Available Interval	| Duration (min)	| Scheduled Interval	| Patient Name		| Patient Surname		| Patient Priority 	 |
 | -----	        | ----- 		| -----			| ----- 		| -----			| -----				| -----			 |
 | 1	        | (0 , 40)		| 20			| (0 , 20)		| Justin		| Bieber			| 1			 |
-| 1		| (360 , 480)		| 120			| (360 , 480)		| Yýlmaz		| Morgul			| 1			 |
+| 1		| (360 , 480)		| 120			| (360 , 480)		| Y?lmaz		| Morgul			| 1			 |
 | 1		| (40 , 180)		| 40			| (40 , 80)		| Heidi			| Klum				| 1			 |
 | 2		| (0 , 180)		| 60			| (0 , 60)		| Bihter		| Ziyagil			| 1			 |
 | 1		| (120 , 380)		| 120			| (120 , 240)		| Husnu			| Coban				| 1			 |
@@ -32,7 +32,7 @@ Algorithm has produced the following schedule:
 | 2		| (200 , 360)		| 40			| (200 , 240)		| Hadise		| Acikgoz			| 2			 |
 | 2		| (100 , 180)		| 40			| (100 , 140)		| Nihal			| Candan			| 3			 |
 | 1		| (240 , 360)		| 40			| (240 , 280)		| Askim			| Kapismak			| 3			 |
-| 3		| (180 , 320)		| 60			| (180 , 240)		| Ýbrahim		| Tatlýses			| 3			 |
+| 3		| (180 , 320)		| 60			| (180 , 240)		| ?brahim		| Tatl?ses			| 3			 |
 | 3		| (40 , 240)		| 60			| (100 , 160)		| Safiye		| Soyman			| 3			 |
 | 1		| (0 , 120)		| 20			| (20 , 40)		| Kendall		| Jenner			| 4			 |
 | 4		| (120 , 300)		| 100			| (120 , 220)		| Murat			| Kekilli			| 4			 |
